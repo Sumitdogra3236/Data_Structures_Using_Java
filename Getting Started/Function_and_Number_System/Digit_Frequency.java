@@ -1,6 +1,7 @@
+// To count the frequency of a digit occuring in a number using functions in Java
 import java.util.*;
 
-public class Main {
+public class Digit_Frequency {
 
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
