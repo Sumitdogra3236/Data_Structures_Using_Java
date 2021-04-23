@@ -1,4 +1,4 @@
-// To count the frequency of a digit occuring in a number using functions in Java
+// To count the frequency of a digit occuring in a number using functions
 import java.util.*;
 
 public class Digit_Frequency {
