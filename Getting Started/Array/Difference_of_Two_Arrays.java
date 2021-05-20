@@ -28,7 +28,7 @@ public class Difference_of_Two_Arrays {
         int p3 = res.length - 1;
         int borrow = 0;
 
-        while (p3 >= 0) {
+        while (p3 >= 0 || p2 >= 0) {
             int d1 = p1 < 0 ? 0 : arr1[p1];
             int d2 = p2 < 0 ? 0 : arr2[p2];
 
