@@ -45,11 +45,14 @@ public class Difference_of_Two_Arrays {
             p3--;
         }
 
-        if (res[0] != 0) {
-            System.out.println(res[0]);
-        }
-        for (int i = 1; i < res.length; i++) {
-            System.out.println(res[i]);
+        boolean flag = false;
+        for (int idx = 0; idx < res.length; idx++) {
+            if (res[idx] != 0) {
+                flag = true;
+            }
+            if (flag) {
+                System.out.println(res[idx]);
+            }
         }
 
     }
