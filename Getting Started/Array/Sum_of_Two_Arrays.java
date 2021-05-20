@@ -20,7 +20,8 @@ public class Sum_of_Two_Arrays {
     }
 
     public static void sumofarray(int[] arr1, int[] arr2) {
-        int len = Math.max(arr1.length, arr2.length) + 1;
+        // int len = Math.max(arr1.length, arr2.length) + 1;
+        int len = arr1.length > arr2.length ? arr1.length : arr2.length;
         int res[] = new int[len];
 
         int a1 = arr1.length - 1;
