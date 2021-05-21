@@ -42,9 +42,9 @@ public class Binary_Seach {
 //     public static void main(String[] args) {
 //         Scanner scn = new Scanner(System.in);
 //         int arr[] = { 10, 25, 30, 46, 56, 63, 79, 84, 98, 105, 121 };
-//         int element = 25;
-
-//         System.out.println(BinarySearch(arr, element));
+//         int element = 30;
+//         int res = BinarySearch(arr, element);
+//         System.out.println(res);
 
 //     }
 
@@ -54,7 +54,7 @@ public class Binary_Seach {
 
 //         while (low <= high) {
 //             int mid = (low + high) / 2;
-//             if (arr[mid] == element) {
+//             if (arr[mid] == element) { // element found
 //                 return mid;
 //             } else if (arr[mid] > element) {
 //                 high = mid - 1;
