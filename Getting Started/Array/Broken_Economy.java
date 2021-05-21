@@ -30,6 +30,7 @@ public class Broken_Economy {
                 // ceil = arr[mid];
                 // floor = arr[mid];
                 ceil = floor = arr[mid];
+                break;
             } else if (k < arr[mid]) {
                 high = mid - 1;
                 ceil = arr[mid];
