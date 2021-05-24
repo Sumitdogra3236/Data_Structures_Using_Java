@@ -3,7 +3,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Subser_of_Array{
+public class Subset_of_Array{
 
 public static void main(String[] args) throws Exception {
     Scanner scn = new Scanner(System.in);
