@@ -1,4 +1,5 @@
 // Print all Palindromic Substrings
+
 import java.io.*;
 import java.util.*;
 
@@ -22,16 +23,14 @@ public class Main {
     public static boolean isPalindromic(String str) {
         int low = 0;
         int high = str.length() - 1;
-        boolean flag = true;
         while (low < high) {
             if (str.charAt(low) != str.charAt(high)) {
-                flag = false;
-                return flag;
+                return false;
             }
             low++;
             high--;
         }
-        return flag;
+        return true;
     }
 
     public static void main(String[] args) {
