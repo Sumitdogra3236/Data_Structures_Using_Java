@@ -8,7 +8,7 @@ public class Main {
         int len = str.length();
 
         String sb = "";
-        for (int i = 0; i <= len; i++) {
+        for (int i = 0; i <= len - 1; i++) {
             for (int j = i + 1; j <= len; j++) {
                 sb = str.substring(i, j);
                 if (isPalindromic(sb)) {
