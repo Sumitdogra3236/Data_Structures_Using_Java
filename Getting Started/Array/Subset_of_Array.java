@@ -1,4 +1,4 @@
-// Subset of Array -> Math.pow(2,n);
+    // Subset of Array -> Math.pow(2,n);
 
 import java.io.*;
 import java.util.*;
