@@ -1,5 +1,5 @@
 
-public class odd {
+public class PrintOdd {
     public static void main(String[] args) {
         int n = 20;
         printodd(n);
