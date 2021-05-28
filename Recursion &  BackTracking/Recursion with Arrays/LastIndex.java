@@ -26,7 +26,7 @@ public class LastIndex {
         int res = lastIndex(arr, idx + 1, x);
         if (res == -1) {
             if (arr[idx] == x) {
-                return idx;
+                return idx;      // res = idx; 
             } else
                 return -1;
         }
