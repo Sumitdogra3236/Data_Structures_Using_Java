@@ -14,7 +14,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Count_Sort {
+public class CountSort {
 
     public static void countSort(int[] arr, int min, int max) {
         int range = max - min + 1;
