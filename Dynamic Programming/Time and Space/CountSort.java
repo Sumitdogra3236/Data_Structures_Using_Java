@@ -1,5 +1,4 @@
 
-
 // Step 1: Make an freq[] array of size (max-min+1), coz unique no. can be all
 // these
 // Step 2: Fill the freq[] array with the frequency at the position, ie. val -
