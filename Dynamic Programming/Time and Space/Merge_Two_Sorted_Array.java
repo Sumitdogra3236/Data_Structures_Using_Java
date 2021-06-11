@@ -1,6 +1,6 @@
+// Merge two Sorted Arrays
 import java.io.*;
 import java.util.*;
-
 public class MaMerge_Two_Sorted_Arrayin {
 
     public static int[] mergeTwoSortedArrays(int[] a, int[] b) {
