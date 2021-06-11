@@ -1,4 +1,4 @@
-// State of Wakanda-2
+// State of Wakanda-2 -> Diagonal Traversal
 
 import java.io.*;
 import java.util.*;
