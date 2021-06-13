@@ -1,4 +1,4 @@
-// Display Array in Reverse
+// Display Array in Reverse.
 
 import java.io.*;
 import java.util.*;
