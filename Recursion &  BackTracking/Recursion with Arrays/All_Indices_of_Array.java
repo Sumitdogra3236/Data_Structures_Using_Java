@@ -1,4 +1,5 @@
 // All Indices of Array
+
 import java.io.*;
 import java.util.*;
 
