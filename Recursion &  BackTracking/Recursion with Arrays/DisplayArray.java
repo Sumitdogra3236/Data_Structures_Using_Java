@@ -1,4 +1,4 @@
-// Display Array using recursion
+// Display Array using recursion.
 
 import java.io.*;
 import java.util.*;
