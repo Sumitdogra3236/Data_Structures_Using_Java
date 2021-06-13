@@ -1,4 +1,4 @@
-// return Last index of array
+// Return Last index of number in an Array
 
 import java.io.*;
 import java.util.*;
