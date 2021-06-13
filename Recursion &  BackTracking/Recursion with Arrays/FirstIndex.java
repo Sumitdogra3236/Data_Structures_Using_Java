@@ -1,4 +1,4 @@
-// Return First index of number
+// Return First index of number in an Array
 
 import java.io.*;
 import java.util.*;
