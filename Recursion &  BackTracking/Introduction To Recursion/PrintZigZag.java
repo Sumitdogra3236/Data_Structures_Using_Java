@@ -1,4 +1,4 @@
-// Print Zig Zag -> Hit and Trial Method
+// Print Zig Zag -> Hit and Trial Method.
 
 import java.io.*;
 import java.util.*;
