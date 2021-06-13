@@ -1,4 +1,5 @@
 // Optimized code to find power Linear.
+
 import java.io.*;
 import java.util.*;
 
