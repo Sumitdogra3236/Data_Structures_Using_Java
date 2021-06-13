@@ -1,4 +1,4 @@
-// Get Subsequence of a String using Recursion
+// Get Subsequence of a String using Recursion.
 
 import java.io.*;
 import java.util.*;
