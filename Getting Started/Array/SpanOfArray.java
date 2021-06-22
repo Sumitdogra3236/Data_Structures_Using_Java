@@ -1,4 +1,4 @@
- // Span of Array ( Span = Max Element - Min Element in Array)
+ // Span of Array ( Span = Max Element - Min Element in Array) 
     import java.io.*;
  import java.util.*;
 
