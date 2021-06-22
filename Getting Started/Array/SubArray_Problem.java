@@ -1,4 +1,4 @@
-// Print Sub-Array of Array 
+// Print Sub-Array of Array  
 // SubArray => continuous sub-part of Array
 
 import java.io.*;
