@@ -1,4 +1,7 @@
+// Stack -> Stack is a linear data structure which follows a particular order in which the operations are performed
 // push() -> to push the element in the Stack
+// peek() -> to view top most element
+// pop() -> peek() + remove top most element from the Stack
 
 
 import java.util.Stack;
