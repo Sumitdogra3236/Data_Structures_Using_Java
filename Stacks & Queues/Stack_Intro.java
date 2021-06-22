@@ -3,7 +3,7 @@
 // push() -> to push the element in the Stack
 // peek() -> to view top most element
 // pop() -> peek() + remove top most element from the Stack
-// size() -> return the size of the Stack
+// size() -> returns the size of the Stack
 // isEmpty() -> returns a Boolean Value (True/False), whether the Stack is Empty or not Empty 
 
 
