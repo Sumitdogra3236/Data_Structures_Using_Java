@@ -25,7 +25,8 @@ public class Duplicate_Brackets {
                 while (st.peek() != '(') {
                     st.pop();
                 }
-                st.pop(); // for opening brackets
+                if (!st.isEmpty())
+                    st.pop(); // for opening brackets
             } else {
                 st.push(ch);
             }
