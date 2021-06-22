@@ -1,4 +1,4 @@
-// Find First Index and Last Index of a given number
+// Find First Index and Last Index of a given number 
 
 import java.io.*;
 import java.util.*;
