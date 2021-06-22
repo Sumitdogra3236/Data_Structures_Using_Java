@@ -3,11 +3,11 @@
 // push() -> to push the element in the Stack
 // peek() -> to view top most element
 // pop() -> peek() + remove top most element from the Stack
+// size() -> return the size of the Stack
+// isEmpty() -> returns a Boolean Value (True/False), whether the Stack is Empty or not Empty 
 
 
 import java.util.Stack;
-
-import javax.print.event.PrintJobListener;
 public class Stack_Intro {
     public static void main(String[] args) {
         Stack<Integer> st = new Stack<>();
