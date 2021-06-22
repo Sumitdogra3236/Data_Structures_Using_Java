@@ -1,4 +1,4 @@
-// Inverse of An Array
+// Inverse of An Array 
 import java.io.*;
 import java.util.*;
 
