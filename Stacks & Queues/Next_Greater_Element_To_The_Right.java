@@ -1,5 +1,5 @@
 
-                // Logic
+                    // Logic
 //     public static int[] solve(int[] arr) {
 //         int res[] = new int[arr.length];
 //         Stack<Integer> st = new Stack<>();
