@@ -1,4 +1,3 @@
-Stock Span -> Next Greater Element to Left
 // Google, Amazon
 // Application of Next Greater Element to Left
 // Three Steps -> [pop() all smaller, catch the answer, push()]
