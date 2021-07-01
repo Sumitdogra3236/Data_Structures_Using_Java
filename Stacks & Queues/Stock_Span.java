@@ -1,6 +1,6 @@
 // Google, Amazon
 // Application of Next Greater Element to Left
-// Three Steps -> [pop(), catch the answer, push()]
+// Three Steps -> [pop() all smaller, catch the answer, push()]
 
                         // Logic
 
