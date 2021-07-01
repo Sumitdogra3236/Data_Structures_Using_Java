@@ -1,8 +1,39 @@
+Stock Span -> Next Greater Element to Left
 // Google, Amazon
 // Application of Next Greater Element to Left
 // Three Steps -> [pop() all smaller, catch the answer, push()]
 
                         // Logic
+                        
+//  public static int[] solve(int[] arr){
+//    int ngel[] = new int[arr.length];
+//    int res[] = new int[arr.length];
+   
+//    Stack<Integer> st = new Stack<>();
+//    st.push(0);
+//    ngel[0] = -1;
+   
+//    for(int i = 1; i < arr.length;i++){
+//        while(st.size() > 0 && arr[i] > arr[st.peek()]){
+//            st.pop();
+//        }
+//        if(st.size() == 0){
+//            ngel[i] = -1; 
+//        }
+//        else{
+//            ngel[i] = st.peek();
+//        }
+//        st.push(i);
+//    }
+   
+//    for(int i = 0; i <res.length; i++){
+//        res[i] = i - ngel[i]; 
+//    }
+//    return res;
+//  }
+
+
+
 
 //  public static int[] solve(int[] arr){
 //    int span[] = new int[arr.length];
