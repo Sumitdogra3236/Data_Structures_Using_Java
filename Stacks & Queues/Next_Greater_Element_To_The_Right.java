@@ -1,8 +1,10 @@
-
+// MicroSoft, Amazon, Facebook
+// Three Steps -> [pop() all smaller elements, if st->empty = NGER = -1 else NGER = st.peek(), push()]
                     // Logic
+
 //     public static int[] solve(int[] arr) {
 //         int res[] = new int[arr.length];
-//         Stack<Integer> st = new Stack<>();
+//         Stack<Integer> st = new Stack<>();   
 //         res[arr.length - 1] = -1;
 //         st.push(arr[arr.length - 1]);
 
