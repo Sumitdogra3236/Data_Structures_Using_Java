@@ -1,5 +1,5 @@
                 // Sliding_Window_Maximum
-                
+// MicroSoft, Adobe, Google, Amazon, Uber, Oracle, Apple, Bloomberg ... 
 
 import java.io.*;
 import java.util.*;
