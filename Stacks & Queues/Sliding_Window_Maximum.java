@@ -1,9 +1,11 @@
-
+public class Sliding_Window_Maximum {
+    
+}
 
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class Sliding_Window_Maximum {
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
