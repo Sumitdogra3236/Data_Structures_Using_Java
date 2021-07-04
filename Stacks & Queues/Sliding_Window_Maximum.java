@@ -1,6 +1,23 @@
                 // Sliding_Window_Maximum
 // MicroSoft, Adobe, Google, Amazon, Uber, Oracle, Apple, Bloomberg ... 
 
+
+                        // Logic
+                        // First find Next Greater Element to Right
+// int j = 0;
+// for(int i=0;i<=arr.length-k;i++){
+// if(j < i){
+// j = i;
+//}
+//  while(nger[j]<i+k){
+//      j=nger[j];
+//     }
+//     System.out.println(arr[j]);
+// }
+
+
+
+
 import java.io.*;
 import java.util.*;
 
