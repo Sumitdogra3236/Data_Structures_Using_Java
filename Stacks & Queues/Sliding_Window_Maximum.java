@@ -1,6 +1,4 @@
-public class Sliding_Window_Maximum {
-    
-}
+
 
 import java.io.*;
 import java.util.*;
