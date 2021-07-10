@@ -1,4 +1,4 @@
-// MicroSoft, Amazon, Facebook
+// MicroSoft, Amazon, Facebook...
 // Three Steps -> [pop() all smaller elements, if st->empty = NGER = -1 else NGER = st.peek(), push()]
                     // Logic
 
