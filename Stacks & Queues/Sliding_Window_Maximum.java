@@ -4,15 +4,15 @@
 
                         // Logic
                         // First find Next Greater Element to Right
-// int j = 0;
+// int max = 0;
 // for(int i=0;i<=arr.length-k;i++){
-// if(j < i){
-// j = i;
+// if(max < i){
+// max = i;
 //}
-//  while(nger[j]<i+k){
-//      j=nger[j];
+//  while(nger[max]<i+k){
+//      max = nger[max];
 //     }
-//     System.out.println(arr[j]);
+//     System.out.println(arr[max]);
 // }
 
 
