@@ -1,4 +1,4 @@
-                // Balanced Brackets
+// Balanced Brackets
 
 import java.io.*;
 import java.util.*;
