@@ -21,7 +21,8 @@ public class Max_of_an_Array {
         }
 
         int lmax = maxOfArray(arr, idx + 1);
-
+        // int max = Math.max(lmax, arr[idx]);
+        // return max;
         if (lmax > arr[idx]) {
             return lmax;
         } else {
