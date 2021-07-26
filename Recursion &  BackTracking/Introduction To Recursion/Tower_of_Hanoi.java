@@ -14,7 +14,7 @@ public class Tower_of_Hanoi {
         int src = scn.nextInt();
         int dest = scn.nextInt();
         int helper = scn.nextInt();
-
+        // task -> to move n disks from src to dest using helper
         toh(src, dest, helper, n);
     }
 
@@ -22,8 +22,11 @@ public class Tower_of_Hanoi {
         if (n == 0) {
             return;
         }
+        // move n-1 disks from src to helper
         toh(src, helper, dest, n - 1);
+        // move nth disk  from src to dest
         System.out.println(n + "[" + src + " -> " + dest + "]");
+        // move n-1 disks from helper to dest
         toh(helper, dest, src, n - 1);
     }
 
