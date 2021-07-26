@@ -18,5 +18,4 @@ public class Power_Linear {
         }
         return x * powerLinear(x, n - 1);
     }
-
 }
