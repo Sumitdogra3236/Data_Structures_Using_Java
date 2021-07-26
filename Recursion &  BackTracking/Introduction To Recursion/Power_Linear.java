@@ -2,7 +2,6 @@
 
 import java.io.*;
 import java.util.*;
-
 public class Power_Linear {
 
     public static void main(String[] args) throws Exception {
