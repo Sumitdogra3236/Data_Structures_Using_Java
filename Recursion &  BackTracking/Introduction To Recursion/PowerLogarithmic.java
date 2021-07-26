@@ -2,7 +2,6 @@
 
 import java.io.*;
 import java.util.*;
-
 public class PowerLogarithmic {
 
     public static void main(String[] args) throws Exception {
@@ -24,5 +23,4 @@ public class PowerLogarithmic {
         }
         return xPowN;
     }
-
 }
