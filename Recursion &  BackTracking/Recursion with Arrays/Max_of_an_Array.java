@@ -19,6 +19,9 @@ public class Max_of_an_Array {
         if (idx == arr.length) {
             return Integer.MIN_VALUE;
         }
+        // if (idx == arr.length - 1) {
+        //     return arr[idx];
+        // }
 
         int lmax = maxOfArray(arr, idx + 1);
         // int max = Math.max(lmax, arr[idx]);
