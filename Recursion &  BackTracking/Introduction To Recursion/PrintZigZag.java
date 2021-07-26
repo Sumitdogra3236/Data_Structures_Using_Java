@@ -23,5 +23,4 @@ public class PrintZigZag {
         System.out.print(n + " ");
 
     }
-
 }
