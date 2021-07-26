@@ -8,6 +8,7 @@ public class Fibbonacci {
         System.out.println(fibbonacci(n));
         
     }
+    
     public static int fibbonacci(int n){
         if(n == 1 ){
             return 0;
