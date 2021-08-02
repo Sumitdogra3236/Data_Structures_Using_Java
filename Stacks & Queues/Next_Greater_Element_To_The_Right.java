@@ -33,7 +33,7 @@ public class Next_Greater_Element_To_The_Right {
         for (int val : a) {
             sb.append(val + "\n");
         }
-        System.out.println(sb);
+        System.out.println(sb); 
     }
 
     public static void main(String[] args) throws Exception {
