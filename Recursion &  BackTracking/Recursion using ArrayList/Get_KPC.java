@@ -30,7 +30,8 @@ public class Get_KPC {
         ArrayList<String> rres = getKPC(ros);
         ArrayList<String> myList = new ArrayList<>();
 
-        String word = KeyPad[ch - '0'];
+        String word = KeyPad[ch - '0']; // minus the ascii of '0' character from the ascii of the ch
+        // String word = KeyPad[Integer.parseInt(ch + "")];
         for (int i = 0; i < word.length(); i++) {
             char alphabet = word.charAt(i);
             for (String s : rres) {
