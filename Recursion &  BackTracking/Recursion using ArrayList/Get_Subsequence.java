@@ -1,5 +1,12 @@
 // Get Subsequence of a String using Recursion.
 
+// To prevent extra call
+// if(str.length() == 1){
+            // ArrayList<String> base = new ArrayList<>();
+            // base.add("");
+            // base.add(str.charAt(0)+"");
+            // return base;
+    // }
 import java.io.*;
 import java.util.*;
 
