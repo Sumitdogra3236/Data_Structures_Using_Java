@@ -1,4 +1,4 @@
-                        // Get Key-Pad Combination
+// Get Key-Pad Combination
 
 import java.io.*;
 import java.util.*;
