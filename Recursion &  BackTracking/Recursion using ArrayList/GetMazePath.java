@@ -1,4 +1,4 @@
-                        // Get Maze Path.
+// Get Maze Path
 
 import java.io.*;
 import java.util.*;
