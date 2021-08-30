@@ -45,30 +45,30 @@ public class GetMazePath {
 
 
     // Re - Active Approach
-    public static ArrayList<String> getMazePaths(int sr, int sc, int dr, int dc) {
-        if (sr > dr || sc > dc) {
-            ArrayList<String> base = new ArrayList<>();
-            return base;
-        }
+    // public static ArrayList<String> getMazePaths(int sr, int sc, int dr, int dc) {
+    //     if (sr > dr || sc > dc) {
+    //         ArrayList<String> base = new ArrayList<>();
+    //         return base;
+    //     }
 
-        if (sr == dr && sc == dc) {
-            ArrayList<String> base = new ArrayList<>();
-            base.add("");
-            return base;
-        }
+    //     if (sr == dr && sc == dc) {
+    //         ArrayList<String> base = new ArrayList<>();
+    //         base.add("");
+    //         return base;
+    //     }
 
-        ArrayList<String> hPath = getMazePaths(sr, sc + 1, dr, dc);
-        ArrayList<String> vPath = getMazePaths(sr + 1, sc, dr, dc);
+    //     ArrayList<String> hPath = getMazePaths(sr, sc + 1, dr, dc);
+    //     ArrayList<String> vPath = getMazePaths(sr + 1, sc, dr, dc);
 
-        ArrayList<String> res = new ArrayList<>();
-        for (String path : hPath) {
-            res.add('h' + path);
-        }
-        for (String path : vPath) {
-            res.add('v' + path);
-        }
+    //     ArrayList<String> res = new ArrayList<>();
+    //     for (String path : hPath) {
+    //         res.add('h' + path);
+    //     }
+    //     for (String path : vPath) {
+    //         res.add('v' + path);
+    //     }
 
-        return res;
-    }
+    //     return res;
+    // }
 
 }
