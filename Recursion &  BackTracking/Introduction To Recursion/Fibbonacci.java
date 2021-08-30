@@ -1,4 +1,4 @@
-        // Fibbonacci Series using Recursion
+// Fibbonacci Series using Recursion
 
 import java.util.Scanner;
 public class Fibbonacci {
