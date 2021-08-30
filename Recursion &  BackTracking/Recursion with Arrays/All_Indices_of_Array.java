@@ -1,4 +1,5 @@
 // All Indices of Array
+
 // primitive variable cannot be kept uninitialized, it give error variable might not have initialized.
 // reference variable can be kept uninitialized, beacuse java provide the default value of null to reference variable.
 
