@@ -1,21 +1,26 @@
-                    // Merge Sort
+                    /* Merge Sort
                     
+-> recursive algo.                    
+-> (i). int[] left = mergeSort(lo, mid);
+   (ii). int[] right = mergeSort(mid+1, hi);
+   (iii). int[] ans = mergeTwoSortedArray(left, right);
 
-// public static int[] mergeSort(int[] arr, int lo, int hi) {
+public static int[] mergeSort(int[] arr, int lo, int hi) {
 
-//         if (lo == hi) {
-//             int base[] = new int[1];
-//             base[0] = arr[lo]; // or base[0] = arr[hi];
-//             return base;
-//         }
-//         int mid = (lo + hi) / 2;
-//         int left[] = mergeSort(arr, lo, mid);
-//         int right[] = mergeSort(arr, mid + 1, hi);
+        if (lo == hi) {
+            int base[] = new int[1];
+            base[0] = arr[lo]; // or base[0] = arr[hi];
+            return base;
+        }
+        int mid = (lo + hi) / 2;
+        int left[] = mergeSort(arr, lo, mid);
+        int right[] = mergeSort(arr, mid + 1, hi);
 
-//         int ans[] = mergeTwoSortedArrays(left, right);   // function to implement merging two sorted arrays
+        int ans[] = mergeTwoSortedArrays(left, right);   // function to implement merging two sorted arrays
    
-//         return ans;
-//     }
+        return ans;
+    }
+*/
 
 import java.util.*;
 
