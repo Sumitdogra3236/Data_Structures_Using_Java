@@ -44,7 +44,7 @@ public class Balanced_Brackets {
                     return false;
                 }
 
-                st.pop();
+                st.pop();   // to pop opening brackets
             }
         }
 
