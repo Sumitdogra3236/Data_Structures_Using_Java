@@ -1,4 +1,5 @@
 // Balanced Brackets
+// Time Complexity -> O(n).
 /*
 Conditions :
 (i). No- mismatch -> i.e. (a+b]
