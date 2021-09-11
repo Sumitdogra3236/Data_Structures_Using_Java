@@ -1,12 +1,15 @@
 // Balanced Brackets
+/*
+Conditions :
+(i). No- mismatch -> i.e. (a+b]
+(ii). no. of opening brackets == no. of closing brackets
+(iii). Pairing. i.e. -> closing bracket should have same type of opening bracket anf vice-versa.
+*/
 
 import java.io.*;
 import java.util.*;
 
-public class 
-
 public class Balanced_Brackets {
- {
 
     public static void main(String[] args) throws Exception {
         Scanner scn = new Scanner(System.in);
