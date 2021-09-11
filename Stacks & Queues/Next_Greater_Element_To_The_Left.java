@@ -2,7 +2,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Next_Greater_ENext_Greater_Element_To_The_Leftlement_To_The_Right {
+public class Next_Greater_Element_To_The_Left {
     public static void display(int[] a) {
         StringBuilder sb = new StringBuilder();
 
