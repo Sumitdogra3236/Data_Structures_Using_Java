@@ -57,7 +57,7 @@ public class Next_Greater_Element_To_The_Right {
 
         for (int i = arr.length - 2; i >= 0; i--) {
             // while(st.peek() < arr[i] && st.size() > 0){
-            while (st.size() > 0 && arr[i] > st.peek()) {
+            while (st.size() > 0 && arr[i] >= st.peek()) {
                 st.pop();
             }
             if (st.size() == 0) {
