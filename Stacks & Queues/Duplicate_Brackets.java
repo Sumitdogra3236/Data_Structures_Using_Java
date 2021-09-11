@@ -1,4 +1,5 @@
-// Duplicate Brackets
+// Duplicate Brackets 
+// Time Complexity is -> O(n).
 
 import java.io.*;
 import java.util.*;
