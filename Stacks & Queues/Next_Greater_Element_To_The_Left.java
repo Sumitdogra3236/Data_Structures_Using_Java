@@ -33,7 +33,7 @@ public class Next_Greater_Element_To_The_Left {
 
         for(int i = 1; i < arr.length; i++){
 
-            while(st.size() > 0 && st.peek() < arr[i]){
+            while(st.size() > 0 && st.peek() <= arr[i]){
                 st.pop();
             }
             if(st.size() ==0 ){
