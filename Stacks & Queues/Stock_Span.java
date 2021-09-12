@@ -2,7 +2,7 @@
 Google, Amazon...
  Application of Next Greater Element to Left
  Three Steps -> [pop() all smaller, catch the answer, push()]
-span = idex - ngeli;   ngeli -> next Greater Element on Left index
+span = index - ngeli;   ngeli -> next Greater Element on Left index
 */
                         // Logic
                         
